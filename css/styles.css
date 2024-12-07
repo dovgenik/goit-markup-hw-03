@@ -146,7 +146,7 @@ img {
 
 .solutions-button {
     display: block;
-    min-width: 196px;
+    min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
@@ -183,7 +183,7 @@ img {
     overflow: hidden;
 }
 
-.section-two .container {
+.section-two {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -199,7 +199,7 @@ img {
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    flex-basis: calc((100% - 72px) / 4));
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
@@ -210,6 +210,7 @@ img {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .foundations-text {
@@ -227,7 +228,7 @@ img {
 .our-team {
     background-color: #F4F4FD;
 }
-.our-team .container {
+.our-team  {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -277,7 +278,7 @@ img {
 /* #endregion BLOCK OUR TEAM *********************************/
 
 /* #region BLOCK OUR PORTFOLIO *********************************/
-.portfolio .container{
+.portfolio {
     padding-top: 120px; 
     padding-bottom: 120px; 
 }
@@ -335,11 +336,13 @@ img {
     background-color: #2E2F42;
     padding: 100px 0;
 }
-
-.footer-logo .logo-two {
-    color: #F4F4FD;
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px; 
+}
+.footer-logo .logo-two {
+    color: #F4F4FD;
+    
 }
 
 .footer-text {
